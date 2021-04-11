@@ -1,3 +1,4 @@
+
 # Domain 1 : Security and Risk Management
 ## Agenda 
 - Principles of Security
@@ -66,7 +67,6 @@ They are :
 + Recommended actions and guides to users. 
 
 Example : In order to maintain securoty awareness, we recommend that our employees attend training classes in relation with security whenever possible. 
-
 ```
 Procedures  : How  
 Standards   : What 
@@ -78,5 +78,69 @@ Policies    : Why
 + The purpose of security classification is to determine and assign the necessary baseline configuration to protect the data
 + Can be used for variance analysis : if i am worried that other softwares had been installed in my system, i compare it to the baseline image.
 
-## Roles and Responsibilities 
-If your ne
+### Roles and Responsibilities 
+In small companies we may notice that the lines between roles and responsiiblities get blur, where the security team is the network team because they usually have the same set of skills.  
+We want to isolate and seperate roles. 
+1. **``Senior Management's responsibilities :``** 
+	Senior management is ultimately responsible to : 
+	+ Provide oversight 
+	+ Provide funding and support 
+	+ Ensure testing (and that appropriate results are achieved)
+	+ Propritize business functions 
+	+ Establish a common vision/strategy/framework for the entreprise 
+	+ "sign off" on Policy, BIA (Business impact analysis) and other organizational documents 
+2. **``Steering Committee :``**
+	+ Oversight of infotmation security program 
+	+ Acts as liaison between Management, Business, Information Technology, and Information Security
+	+ Assess and incorporate results of the risk assessment activity 
+	+ Into the decision-making process 
+	+ Ensures all stakeholders interests are addressed 
+	+ Oversees compliance activities
+3. **``Chief Information Security Officer :``**
+	+ Strategic Planning 
+	+ Policy Development 
+	+ Technology Assessment 
+	+ Process Improvement 
+	+  Acquisitions 
+	+ Capital Planning 
+	+ Signs off on the architecture to be implemented 
+	+ Security
+	+ summary : The CIA triade for information assets 
+> Now we move from Senior management down to functional management 
+4. **``Information Security Management :``**
+	+ Functional Manager, responsible for achieving for determining the "How". 
+	+ Play a leading role in introducing an appropriate, structured methodology 
+	+ Act as major consultants in support of senior management
+5. **``Business Managers :``**
+These are our customars, the heads of individual departments, of business units, the owners of the systems, the owners of the informations. They determine the classification of the assets which means they determine who accesses the data. they are the ones accountable for the protection of the assets. 
+	+ Responsible for business operations 
+	+ Provide direction to ensure security is implemented in such a way as to meet business objectives 
+	+ Responsible for security enforcment and direction 
+	+ Responsible for day-to-day : 
+		+ Monitoring 
+		+ Reporting 
+		+ Disciplinary actions 
+		+ Compliance 
+		
+6. **``Security Practitioners :``**
+	+ Responsible for proper implementation of security requirements in their IT systems. 
+	+ Support or use the risk management process to identify and assess new potential risk and implement new security controls as needed to safeguard their IT systems. 
+7. **`` Auditors :``**
+Trick question : at what point in time does the auditor say enough is enough i need to jump here and fix this problem ?  
+Answer is : NEVER! Auditors audit. and thats it.  
+Auditors are there for compliance, if want to find out if configuration is according to policy -> you audit, are we in compiance with laws and regulations -> you audit. However if you want to know if it works -> you test. 
+> Am i in compliance -> Audit 
+Will it work -> Test 
+
++ Objective Evaluation of controls and policies to ensure that they are being implemented and are effective 
++ If internal auditing is in place, auditors should not report to the head of a business unit, but rather to the Chief Operating Officer or some other entity without direct stake in result 
++ Auditors document and do not modify   
+
+8. **``Security Trainers :``**
+Its up to security trainers to create a blameless strategy.   
+When people understand why we are trying to do what we are trying to do, they tend to be much more willing to follow the policy. 
+	+ Must understand the risk management process 
+	+ Develop appropriate training materials 
+	+ Conduct security trainings and awareness programs catered to roles within the organization 
+	+ Incorporate risk assessment into training programs to educate the end users 
+	+ Encourage users to report violations 
