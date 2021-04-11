@@ -144,7 +144,7 @@ When people understand why we are trying to do what we are trying to do, they te
 	+ Conduct security trainings and awareness programs catered to roles within the organization 
 	+ Incorporate risk assessment into training programs to educate the end users 
 	+ Encourage users to report violations 
-	
+
 ## Information Security Risk Management 
 Before we start implementing controls we have to get risk management.    
 It is the foundation of all security decisions.  
@@ -159,4 +159,3 @@ It is the foundation of all security decisions.
 - ``Threat Agent :``What carries out the attack 
 - ``Exploit :`` An instance of compromise 
 - ``Risk :`` The probability of a threat materializing 
-- 
