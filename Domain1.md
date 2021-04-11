@@ -144,3 +144,19 @@ When people understand why we are trying to do what we are trying to do, they te
 	+ Conduct security trainings and awareness programs catered to roles within the organization 
 	+ Incorporate risk assessment into training programs to educate the end users 
 	+ Encourage users to report violations 
+	
+## Information Security Risk Management 
+Before we start implementing controls we have to get risk management.    
+It is the foundation of all security decisions.  
+
+>Information security risk management, or ISRM, is the process of managing risks associated with the use of information technology. It involves identifying, assessing, and treating risks to the confidentiality, integrity, and availability of an organization's assets 
+
+### Risk Definitions 
+
+- ``Assets :`` Anything of value to the company
+- ``Vulnerability :``A weakness 
+- ``Threat :``Something that could pose loss to all or part of an asset 
+- ``Threat Agent :``What carries out the attack 
+- ``Exploit :`` An instance of compromise 
+- ``Risk :`` The probability of a threat materializing 
+- 
