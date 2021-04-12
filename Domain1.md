@@ -128,7 +128,7 @@ These are our customars, the heads of individual departments, of business units,
 Trick question : at what point in time does the auditor say enough is enough i need to jump here and fix this problem ?  
 Answer is : NEVER! Auditors audit. and thats it.  
 Auditors are there for compliance, if want to find out if configuration is according to policy -> you audit, are we in compiance with laws and regulations -> you audit. However if you want to know if it works -> you test. 
-> Am i in compliance -> Audit 
+> Am i in compliance -> Audit  
 Will it work -> Test 
 
 + Objective Evaluation of controls and policies to ensure that they are being implemented and are effective 
@@ -190,3 +190,4 @@ A[Identify Assets] --> B[Identify Threats]--> C[Identify Existing Controls]-->D[
 + In order for risk to be integrated into the enterprise, senior management must be supportive and involved
 	+ If management funds and supports the risk management processes we will have what we need to be successful 
 	+ Good metrics mean that we have attainable objectives 
+
