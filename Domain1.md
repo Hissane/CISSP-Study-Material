@@ -190,5 +190,6 @@ Sadly github .md files still dont support mermaid graph diagrams so im afraid yo
 + Look beyond IT - Risk is measured by the impact the risl has on the business, not on a particular system
 + In order for risk to be integrated into the enterprise, senior management must be supportive and involved
 	+ If management funds and supports the risk management processes we will have what we need to be successful 
-	+ Good metrics mean that we have attainable objectives 
-
+	+ Good metrics mean that we have attainable objectives which will help us accomplish our goals 
+	+ Good communication and transparency helps is make risk-aware business decisions 
+	
