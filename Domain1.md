@@ -172,6 +172,7 @@ It is the foundation of all security decisions.
 graph TD
 A[Identify Assets] --> B[Identify Threats]--> C[Identify Existing Controls]-->D[Identify Vulnerabilities]-->E[Identify Consequences]--Feed into-->F(Risk Assessment Process)
 ```
+Sadly github .md files still dont support mermaid graph diagrams so im afraid you wont be able to view my charts :unamused:
 #### Methods to Identify Risk 
 + Sources of risk documentation 
 + Audit reports incident reports 
