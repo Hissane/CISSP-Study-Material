@@ -1,4 +1,3 @@
-
 # Domain 1 : Security and Risk Management
 ## Agenda 
 - Principles of Security
@@ -159,3 +158,35 @@ It is the foundation of all security decisions.
 - ``Threat Agent :``What carries out the attack 
 - ``Exploit :`` An instance of compromise 
 - ``Risk :`` The probability of a threat materializing 
+- ``Controls :`` Physical, Administrative, and Technical Protections 
+	+ Safeguards (Proactive) 
+	+ Countermeasure (Reactive)
+- ``Total Risk :`` The risk that exists before any control is implemented 
+- ``Residual Risk :`` Leftover risk after applying a control 
+- ``Secondary Risk :`` When one risk response triggers another risk event 
+- ``Incident :`` a risk event that has transpired or materialised
+
+### Risk Identification 
+#### Risk Identification Process 
+```Mermaid 
+graph TD
+A[Identify Assets] --> B[Identify Threats]--> C[Identify Existing Controls]-->D[Identify Vulnerabilities]-->E[Identify Consequences]--Feed into-->F(Risk Assessment Process)
+```
+#### Methods to Identify Risk 
++ Sources of risk documentation 
++ Audit reports incident reports 
++ Interviews wirh SMEs Public media 
++ Annual reports 
++ Press releases 
++ Vulnerability assessment and penetration tests 
++ Business continuity and disaster recovery plans 
++ Interview and workshops 
++ Threat intelligence services 
+> How do we Identify risks ? You open your eyes.   
+> anywhere you go you are being aware of current threats of information security, when i see a threat materialized with another organization perhaps in the same industry as me i realise that that risk could happen to me too. I look to incident response reports, what incidents have we had, how did we respond, what are the lessons learned.. There are a million ways, we should do the research. we are liable, we have to do the due diligence and do the research. 
+#### Alignment wirh Business Goals and Objectives 
++ The first and most important step for a CISM is to understand the business. Review organizational vision and strategy **FIRST**. 
++ Look beyond IT - Risk is measured by the impact the risl has on the business, not on a particular system
++ In order for risk to be integrated into the enterprise, senior management must be supportive and involved
+	+ If management funds and supports the risk management processes we will have what we need to be successful 
+	+ Good metrics mean that we have attainable objectives 
