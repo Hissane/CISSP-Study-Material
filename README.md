@@ -1,5 +1,5 @@
 # CISSP Study Material 
-This repository contains my lecture notes for cybrary's [Certified Information Systems Security Professional (CISSP)]().
+This repository contains my lecture notes for cybrary's [Certified Information Systems Security Professional (CISSP)](https://www.cybrary.it/course/cissp/).
 ## The 8 domains of CISSP 
 - Domain 1 : `Security and Risk Management`  16%
 - Domain 2 : `Asset Security`  10%
