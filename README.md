@@ -3,14 +3,14 @@ This repository contains my lecture notes for cybrary's [Certified Information S
 ## The 8 domains of CISSP 
 - Domain 1 : `Security and Risk Management`  16%
 - Domain 2 : `Asset Security`  10%
-- Domain 3 : `Security Architecture and Engineering` 12%
+- Domain 3 : `Security Architecture and Engineering` 13%
 	+ Security Architecture and Design 
 	+ Software Development Security (Domain 8)
 	+ Cryptography
-- Domain 4 : `Communication and Network Security`   12%
+- Domain 4 : `Communication and Network Security` 13%
 - Domain 5 : `Identity and Access Management`  13%
-- Domain 6 : `Security Assessment and Testing`  11%
-- Domain 7 : `Security Operations`  16%
+- Domain 6 : `Security Assessment and Testing`  12%
+- Domain 7 : `Security Operations`  13%
 	+ Redundancy 
 	+ Continuity of the Enterprise
 - Domain 8 : `Software Development Security`  10%
