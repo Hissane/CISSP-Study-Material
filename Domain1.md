@@ -13,6 +13,38 @@
 - Legal Considerations 
 - Knowledge Transfer 
 
+## Principles of Security 
+CIA Triad - Confidentiality, Integrity, Availability. 
+### Confidentiality: 
+Confidentiality measures the attacker's ability to get unauthorised data or access to information from an application or system. 
+The process involves using techniques, often cryptography, to allow only approved users the ability to view sensitive information. 
+Confidential information examples: 
+- Passwords 
+- Cryptographic keys
+- PII - Personally identifiable information 
+- PHI - Protected Health information 
+- IP - Intellectual property 
+
+High level confidentiality solutions: 
+- `WPA3 Cryptography`: using comparable 192-bit cryptographoc mechanism in WPA3-Entreprise mode. Specifically AES-256 in GCM (Gallois Counter Mode) mode with SHA-384 as HMAC. 
+also dictate susing CCMP-128 (AES-128 in CCM mode) as the minimum baseline encryption algorithm in WPA3-Personal mode. 
+- `Confidential computing`: an AWS Nitro Enclave is a hardened and heavily insulated compute environment that is initiated and connected to the consumer's instance(s) of a virtual machine such as Windows, Linux and/or macOS. No user, including admin or root, not any application running on the virtual machine has interactive access to the enclave. 
+- `Homomorphic encryption`: Homomorphic encryption is an innovative solution that contributes to a zero-trust  initiative by protecting data-in-use in untrusted domains (e.g. the cloud) without the need to decrypt. 
+The process involves the transformation of data into ciphertext that can be analyzed and worked on as if it were still in its original form. it utilises asymmetric algorithms and multifaceted algebraic functions to act upon encrypted data-in-use (i.e. Redis clusters) without affecting the existing encryption. 
+
+### Integrity
+Integrity measures an attacker's ability to manipulate, change or remove data at rest and data in transit. 
+it typically involves implementing cryptographic hashing, hash-based message authentication codes (HMACs), and digital signing mechanisms to assure only authorised subjects can change sensitive information. 
+Protections will counter:
+- On-path man-in-the-middle (MITM) attacks
+- Injection ot hijacking attacks on data in transit 
+- Modifying files 
+- Changing access control lists (ACLs) 
+- Domain name system (DNS) or Address Resolution Protocol (ARP) cache poisoning 
+
+High level integrity Solutions: 
+- `Clark-Wilson (CW)`: 
+
 ## Information Security Program
 - Provides the means for achieving strategy 
 - Policies/Standards/Procedures/Guidlines
