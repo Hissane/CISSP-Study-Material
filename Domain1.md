@@ -1,10 +1,10 @@
 # Domain 1 : Security and Risk Management
 ## Agenda 
-- [Principles of Security](## Principles of Security)
+- [Principles of Security](##Principles-of-Security)
 - Security Governance 
 	+ Security Strategy
 	+ Security Blueprints and Frameworks 
-- [Information Security Program](## Information Security Program)
+- [Information Security Program](##Information-Security-Program)
 - Information Security Risk Management 
 	+ Identification 
 	+ Assessment 
