@@ -5,7 +5,7 @@
 	+ Security Strategy
 	+ Security Blueprints and Frameworks 
 - [Information Security Program](#Information-Security-Program)
-- Information Security Risk Management 
+- [Information Security Risk Management](#Information-Security-Risk-Management )
 	+ Identification 
 	+ Assessment 
 	+ Mitigation 
