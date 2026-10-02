@@ -26,8 +26,8 @@ Confidential information examples:
 - IP - Intellectual property 
 
 High level confidentiality solutions: 
-- `WPA3 Cryptography`: using comparable 192-bit cryptographoc mechanism in WPA3-Entreprise mode. Specifically AES-256 in GCM (Gallois Counter Mode) mode with SHA-384 as HMAC. 
-also dictate susing CCMP-128 (AES-128 in CCM mode) as the minimum baseline encryption algorithm in WPA3-Personal mode. 
+- `WPA3 Cryptography`: using comparable 192-bit cryptographic mechanism in WPA3-Entreprise mode. Specifically AES-256 in GCM (Gallois Counter Mode) mode with SHA-384 as HMAC. 
+also dictate using CCMP-128 (AES-128 in CCM mode) as the minimum baseline encryption algorithm in WPA3-Personal mode. 
 - `Confidential computing`: an AWS Nitro Enclave is a hardened and heavily insulated compute environment that is initiated and connected to the consumer's instance(s) of a virtual machine such as Windows, Linux and/or macOS. No user, including admin or root, not any application running on the virtual machine has interactive access to the enclave. 
 - `Homomorphic encryption`: Homomorphic encryption is an innovative solution that contributes to a zero-trust  initiative by protecting data-in-use in untrusted domains (e.g. the cloud) without the need to decrypt. 
 The process involves the transformation of data into ciphertext that can be analyzed and worked on as if it were still in its original form. it utilises asymmetric algorithms and multifaceted algebraic functions to act upon encrypted data-in-use (i.e. Redis clusters) without affecting the existing encryption. 
@@ -37,17 +37,18 @@ Integrity measures an attacker's ability to manipulate, change or remove data at
 it typically involves implementing cryptographic hashing, hash-based message authentication codes (HMACs), and digital signing mechanisms to assure only authorised subjects can change sensitive information. 
 Protections will counter:
 - On-path man-in-the-middle (MITM) attacks
-- Injection ot hijacking attacks on data in transit 
+- Injection or hijacking attacks on data in transit 
 - Modifying files 
 - Changing access control lists (ACLs) 
 - Domain name system (DNS) or Address Resolution Protocol (ARP) cache poisoning 
 
 High level integrity Solutions: 
-- `Clark-Wilson (CW)`: 
+- `Clark-Wilson (CW)`: Mandatory access control model that provides a structure for describing and analysing an integrity policy for computing systems based on: 
++ 
 
 ## Information Security Program
 - Provides the means for achieving strategy 
-- Policies/Standards/Procedures/Guidlines
+- Policies/Standards/Procedures/Guidelines
 - Roles and Responsibilities 
 - SLA's Service level agreements/Outsourcing 
 - Data Classification/Security 
@@ -57,27 +58,27 @@ High level integrity Solutions:
 ### Policies 
 We start by looking at policies : 
 - `Corporate policy (Organizational policy)`: state management commitment to security. 
-> Policies dont frequently change, Standards are the ones we change instead, Policies are very broad and generic 
-- `System Specifique Policy` : directed at an individual system. Example : "before accessing {domain controllers}, users must provide a multifactor authentication based on the type of access they're to be granted"
-- `Issue Specific Policy` : Nebulous issues qithin the organisation we need to define because we cant rely on common sense. Example : 
-	+ **Change Management Policy** : we dont just make changes out of the blue. We need processes to implements changes.
-	+ **Acceptable Use Policy** : how can you use company ressources. 
+> Policies don't frequently change, Standards are the ones we change instead, Policies are very broad and generic 
+- `System Specific Policy` : directed at an individual system. Example : "before accessing {domain controllers}, users must provide a multifactor authentication based on the type of access they're to be granted"
+- `Issue Specific Policy` : Nebulous issues within the organisation we need to define because we cant rely on common sense. Example : 
+	+ **Change Management Policy** : we don't just make changes out of the blue. We need processes to implements changes.
+	+ **Acceptable Use Policy** : how can you use company resources. 
 	+ **Privacy** : users and employees expect privacy in the workplace, if employers are to infringe up on privacy of employees they must inform them -> most important thing is notification.
 	+ **Data/System Ownership** : make sure its clear who owns what in your system, because the system and the data owners are the ones to determine the classifications and dictate the controls.
-	+ **Seperation of Duties SOD** : no one individual must have too much power and authority to do too many things, the person that prints the pay-checks isnt the one who signs them. It forces collusion : many people should collude to commit a fraud. 
+	+ **Separation of Duties SOD** : no one individual must have too much power and authority to do too many things, the person that prints the pay-checks isn't the one who signs them. It forces collusion : many people should collude to commit a fraud. 
 	+ **Mandatory Vacations** : Detective controls which are implemented at very specific occasions. Example if an employee is suspected for fraud, they can be forced to take mandatory vacations to investigate if they are the ones causing problems.
 	+ **Job Rotation** : Detective Control. example : If i am database administrator A and you move me to database administrator B it gives someone else the change to view my work.
-	+ **Least Privilege** : About actions - What can you do. "I'll only allow a network admin to access the network remotly". 
-	+ **Need to Know** : About Data - You dont need to access the sales folder unless you are in the sales group
-	>Both Least privilege and Need to know go hand in hand with Seperation of duties.
+	+ **Least Privilege** : About actions - What can you do. "I'll only allow a network admin to access the network remotely". 
+	+ **Need to Know** : About Data - You don't need to access the sales folder unless you are in the sales group
+	>Both Least privilege and Need to know go hand in hand with Separation of duties.
 	
-	+ **Dual Control** :  Preventing abuse of power. "In order to launch a bomb you need two people". "In order to retrieve a key i need both Alex and Diana". 
-But what if one of the two isnt present ? then we have: 
-	+ **M of N control** : Maybe i have N network administrator, i need M network administrator  to preform a privileged action.
+	+ **Dual Control** :  Preventing abuse of power. "In order to launch a bomb you need two people". "In order to retrieve a key I need both Alex and Diana". 
+But what if one of the two isn't present ? then we have: 
+	+ **M of N control** : Maybe I have N network administrator, I need M network administrator  to preform a privileged action.
 
 ### Standards 
-They define the specifics of policies, the details of how thats going to be done.  
-While we have few policies that rarely change, we will have many standards that will frequently change. I'll have standars for each users groups, standards that apply to certaint type of informations certain systems. 
+They define the specifics of policies, the details of how that's going to be done.  
+While we have few policies that rarely change, we will have many standards that will frequently change. I'll have standards for each users groups, standards that apply to certain type of information certain systems. 
 they are : 
 + Mandatory 
 + Created to support policy, while providing more specific details
@@ -97,7 +98,7 @@ They are :
 + Suggestive in nature
 + Recommended actions and guides to users. 
 
-Example : In order to maintain securoty awareness, we recommend that our employees attend training classes in relation with security whenever possible. 
+Example : In order to maintain security awareness, we recommend that our employees attend training classes in relation with security whenever possible. 
 ```
 Procedures  : How  
 Standards   : What 
@@ -107,11 +108,11 @@ Policies    : Why
 + Mandatory 
 + Minimum acceptable security configuration for a system or process 
 + The purpose of security classification is to determine and assign the necessary baseline configuration to protect the data
-+ Can be used for variance analysis : if i am worried that other softwares had been installed in my system, i compare it to the baseline image.
++ Can be used for variance analysis : if I am worried that other software had been installed in my system, I compare it to the baseline image.
 
 ### Roles and Responsibilities 
-In small companies we may notice that the lines between roles and responsiiblities get blur, where the security team is the network team because they usually have the same set of skills.  
-We want to isolate and seperate roles. 
+In small companies we may notice that the lines between roles and responsablities get blur, where the security team is the network team because they usually have the same set of skills.  
+We want to isolate and separate roles. 
 1. **``Senior Management's responsibilities :``** 
 	Senior management is ultimately responsible to : 
 	+ Provide oversight 
@@ -121,7 +122,7 @@ We want to isolate and seperate roles.
 	+ Establish a common vision/strategy/framework for the entreprise 
 	+ "sign off" on Policy, BIA (Business impact analysis) and other organizational documents 
 2. **``Steering Committee :``**
-	+ Oversight of infotmation security program 
+	+ Oversight of information security program 
 	+ Acts as liaison between Management, Business, Information Technology, and Information Security
 	+ Assess and incorporate results of the risk assessment activity 
 	+ Into the decision-making process 
